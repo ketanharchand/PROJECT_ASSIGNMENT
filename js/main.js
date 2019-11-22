@@ -34,14 +34,14 @@ function fetch(){
                             
                             
                             <p class="card-text mt-3">
-                               Repos:&nbsp; ${response.public_repos}
+                               Repos:&nbsp; ${response.public_repos}&nbsp;&nbsp;<button=class="btn btn-danger"><a href="http://github.com/${user}/repositories">Get Repositories</a></button>
                             </p>
                             <p class="card-text mt-3">
-                               Followers:&nbsp; ${response.followers}
+                               Followers:&nbsp; ${response.followers}&nbsp;&nbsp;<button=class="btn btn-danger"><a href="http://github.com/${user}/followers">Get Followers</a></button>
                              </p>
                              
                              <p class="card-text mt-3">
-                               Following:&nbsp; ${response.following}
+                               Following:&nbsp; ${response.following}&nbsp;&nbsp;<button=class="btn btn-danger"><a href="http://github.com/${user}/following">Get Following</a></button>
                             </p>
                           
                             <br>
