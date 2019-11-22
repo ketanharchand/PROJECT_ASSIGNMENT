@@ -3,6 +3,9 @@ html,body{
     margin:0;
     padding:0;
     font-family: 'Roboto', sans-serif;
+    background: url(../images/bg-main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 a{
@@ -27,15 +30,7 @@ a:hover{
 
 
 
- 
 
-.home{
-    height: 100vh;
-    background: 100vw;
-    background: url(../images/bg-main.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 
 .input-setting{
